@@ -16,24 +16,24 @@
 // Please note that only when `PIN_SLIDER_LS` and  `PIN_SLIDER_RS` are set to `-1` will the button combo shortcut for DP/LS/RS work.
 // The buttons are listed in GP2040 configuration, beside each the listed order is *GP2040 / Xinput / Switch / PS3 / Directinput / Arcade*
 
-#define PIN_DPAD_UP     9           // UP
+#define PIN_DPAD_UP     6           // UP
 #define PIN_DPAD_DOWN   3           // DOWN
 #define PIN_DPAD_RIGHT  2           // RIGHT
 #define PIN_DPAD_LEFT   4           // LEFT
 #define PIN_BUTTON_B1   26          // B1 / A / B / Cross / 2 / K1
 #define PIN_BUTTON_B2   21          // B2 / B / A / Circle / 3 / K2
-#define PIN_BUTTON_R2   25          // R2 / RT / ZR / R2 / 8 / K3
-#define PIN_BUTTON_L2   22          // L2 / LT / ZL / L2 / 7 / K4
+#define PIN_BUTTON_R2   19          // R2 / RT / ZR / R2 / 8 / K3
+#define PIN_BUTTON_L2   17          // L2 / LT / ZL / L2 / 7 / K4
 #define PIN_BUTTON_B3   27           // B3 / X / Y / Square / 1 / P1
 #define PIN_BUTTON_B4   22           // B4 / Y / X / Triangle / 4 / P2
-#define PIN_BUTTON_R1   20          // R1 / RB / R / R1 / 6 / P3
-#define PIN_BUTTON_L1   18          // L1 / LB / L / L1 / 5 / P4
+#define PIN_BUTTON_R1   18          // R1 / RB / R / R1 / 6 / P3
+#define PIN_BUTTON_L1   20          // L1 / LB / L / L1 / 5 / P4
 #define PIN_BUTTON_S1   13           // S1 / Back / Minus / Select / 9 / Coin
 #define PIN_BUTTON_S2   0           // S2 / Start / Plus / Start / 10 / Start
 #define PIN_BUTTON_L3   -1          // L3 / LS / LS / L3 / 11 / LS
 #define PIN_BUTTON_R3   -1          // R3 / RS / RS / R3 / 12 / RS
 #define PIN_BUTTON_A1   15           // A1 / Guide / Home / PS / 13 / ~
-#define PIN_BUTTON_A2   -1          // A2 / ~ / Capture / ~ / 14 / ~
+#define PIN_BUTTON_A2   16          // A2 / ~ / Capture / ~ / 14 / ~
 #define PIN_BUTTON_TURBO -1         // Turbo
 #define PIN_SLIDER_LS    -1         // Left Stick Slider
 #define PIN_SLIDER_RS    -1         // Right Stick Slider
